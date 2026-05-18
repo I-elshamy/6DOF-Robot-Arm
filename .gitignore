@@ -1,0 +1,41 @@
+# ROS2
+build/
+install/
+log/
+
+# Colcon
+**/build/
+**/install/
+**/log/
+
+# Python
+__pycache__/
+*.pyc
+
+# VSCode
+.vscode/
+
+# Linux
+*.swp
+*.tmp
+
+# MATLAB autosaves
+*.asv
+*.autosave
+
+# Arduino
+*.ino.cpp
+
+# Large generated meshes
+*.dae~
+
+# MoveIt generated temp
+.moveit/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+
+# Ignore ROS bag files
+*.db3
+*.bag
