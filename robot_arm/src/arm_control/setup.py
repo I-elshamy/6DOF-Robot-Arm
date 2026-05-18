@@ -23,10 +23,6 @@ setup(
     license='Apache-2.0',
     entry_points={
         'console_scripts': [
-            'shape_drawer = arm_control.shape_drawer:main',
-            'xyz_mover = arm_control.xyz_mover:main',
-            'move_to_pose = arm_control.move_to_pose:main',
-            'moveit_control = arm_control.moveit_control:main',
             'control_serial = arm_control.control_serial:main',
             'control_micro = arm_control.control_micro:main',
         ],
