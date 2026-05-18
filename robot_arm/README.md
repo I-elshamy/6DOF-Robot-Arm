@@ -48,15 +48,23 @@ ESP32 Subscriber
         v
 Servo Motors
 
+
 # Running the Project (ROS2 Stack)
 
-This section contains all commands required to run the full robotic arm system from simulation to hardware control.
-
----
-
-## 1. Visualize Robot Model in RViz (URDF Check)
-
-Run this to verify the robot description and joint configuration:
+## Full Launch Commands
 
 ```bash
+# 1. Launch RViz and visualize the robot URDF (check robot model, joints, and TF tree)
 ros2 launch arm_description display.launch.py
+
+# 2. Launch Gazebo simulation + MoveIt 2 motion planning (full simulated robot control stack)
+ros2 launch arm_description moveit_gazebo.launch.py
+
+# 3. Run custom control node that converts /joint_states into servo angles for ESP32
+ros2 run arm-control control_micro
+
+# 4. Launch joystick driver to control gripper/clamp manually
+ros2 run joy joy_node
+
+# 5. Start micro-ROS agent (UDP over WiFi) to bridge ROS2 and ESP32 firmware
+ros2 run micro_ros_agent micro_ros_agent udp4 --port 8888
