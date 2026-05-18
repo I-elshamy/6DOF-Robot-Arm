@@ -1,0 +1,22 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 100
+    robot_arm_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+robot_arm_controller:
+  ros__parameters:
+    joints:
+      - stepper_joint
+      - joint_1
+      - joint_2
+      - bracket_1_joint
+      - end_effector_joint
+    command_interfaces:
+      - position
+    state_interfaces:
+      - position
+      - velocity
+    allow_nonzero_velocity_at_trajectory_end: false

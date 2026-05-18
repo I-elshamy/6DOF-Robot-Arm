@@ -1,0 +1,17 @@
+ros__parameters:
+  moveit_controller_manager: moveit_simple_controller_manager/MoveItSimpleControllerManager
+
+  controller_names:
+    - robot_arm_controller
+
+  robot_arm_controller:
+    type: FollowJointTrajectory
+    action_ns: follow_joint_trajectory
+    action_type: control_msgs/action/FollowJointTrajectory
+    default: true
+    joints:
+      - stepper_joint
+      - joint_1
+      - joint_2
+      - bracket_1_joint
+      - end_effector_joint

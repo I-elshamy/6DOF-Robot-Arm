@@ -1,0 +1,19 @@
+planner_configs:
+  RRTConnectkConfigDefault:
+    type: geometric::RRTConnect
+    range: 0.0
+
+  RRTstarkConfigDefault:
+    type: geometric::RRTstar
+    range: 0.0
+    goal_bias: 0.05
+    delay_collision_checking: 1
+
+  PRMkConfigDefault:
+    type: geometric::PRM
+
+robot_arm:
+  planner_configs:
+    - RRTConnectkConfigDefault
+    - RRTstarkConfigDefault
+    - PRMkConfigDefault
