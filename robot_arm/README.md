@@ -76,11 +76,11 @@ ros2 launch arm_description display.launch.py
 
 ### RViz Screenshot
 
-![RViz](media/screenshots/rviz.png)
+![RViz](../media/screenshots/rviz.png)
 
 ### RViz Demo Video
 
-<video src="media/videos/rviz.mp4" controls width="800"></video>
+<video src="../media/videos/rviz.mp4" controls width="800"></video>
 
 ---
 
@@ -93,23 +93,23 @@ ros2 launch arm_description moveit_gazebo.launch.py
 
 ### Gazebo Screenshot
 
-![Gazebo](media/screenshots/gazebo.png)
+![Gazebo](../media/screenshots/gazebo.png)
 
 ### MoveIt Screenshot
 
-![MoveIt](media/screenshots/moveit.png)
+![MoveIt](../media/screenshots/moveit.png)
 
 ### Gazebo Demo Video
 
-<video src="media/videos/gazebo.mp4" controls width="800"></video>
+<video src="../media/videos/gazebo.mp4" controls width="800"></video>
 
 ### MoveIt Demo Video
 
-<video src="media/videos/moveit.mp4" controls width="800"></video>
+<video src="../media/videos/moveit.mp4" controls width="800"></video>
 
 ### Gazebo Mimicking MoveIt Motion
 
-<video src="media/videos/moveit_gazebo_sync.mp4" controls width="800"></video>
+<video src="../media/videos/moveit_gazebo_sync.mp4" controls width="800"></video>
 
 ---
 
