@@ -4,6 +4,20 @@ Welcome to our Industrial Robotics project repository!
 This project was developed as part of the Industrial Robotics course submission and focuses on building, controlling, and simulating a robotic arm system using modern robotics tools and embedded systems.
 
 ---
+<table>
+<tr>
+<td>
+
+![RL](../media/screenshots/real_life_1.jpeg)
+
+</td>
+<td>
+
+![explded_view](../media/screenshots/exploded_view.jpeg)
+
+</td>
+</tr>
+</table>
 
 ## 🚀 Project Overview
 
