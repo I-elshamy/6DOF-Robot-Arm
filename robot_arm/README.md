@@ -99,17 +99,13 @@ ros2 launch arm_description moveit_gazebo.launch.py
 
 ![MoveIt](../media/screenshots/moveit.png)
 
-### Gazebo Demo Video
-
-<video src="../media/screencast/gazebo.mp4" controls width="800"></video>
-
 ### MoveIt Demo Video
 
 <video src="../media/screencast/moveit.mp4" controls width="800"></video>
 
 ### Gazebo Mimicking MoveIt Motion
 
-<video src="../media/screencast/moveit_gazebo_sync.mp4" controls width="800"></video>
+<video src="../media/screencast/gazebo.mp4" controls width="800"></video>
 
 ---
 
