@@ -80,7 +80,7 @@ ros2 launch arm_description display.launch.py
 
 ### RViz Demo Video
 
-<video src="../media/screencast/rviz.gif" controls width="800"></video>
+![Rviz Demo](../media/screencast/rviz.gif)
 
 ---
 
@@ -101,12 +101,11 @@ ros2 launch arm_description moveit_gazebo.launch.py
 
 ### MoveIt Demo Video
 
-<video src="../media/screencast/moveit.gif" controls width="800"></video>
+![MoveIt Demo](../media/screencast/moveit.gif)
 
 ### Gazebo Mimicking MoveIt Motion
 
-<video src="../media/screencast/gazebo.gif" controls width="800"></video>
-
+![Gazebo Demo](../media/screencast/gazebo.gif)
 ---
 
 ## 3. Run Joint State → Servo Control Node
