@@ -80,7 +80,7 @@ ros2 launch arm_description display.launch.py
 
 ### RViz Demo Video
 
-<video src="../media/screencast/rviz.mp4" controls width="800"></video>
+<video src="../media/screencast/rviz.gif" controls width="800"></video>
 
 ---
 
@@ -101,11 +101,11 @@ ros2 launch arm_description moveit_gazebo.launch.py
 
 ### MoveIt Demo Video
 
-<video src="../media/screencast/moveit.mp4" controls width="800"></video>
+<video src="../media/screencast/moveit.gif" controls width="800"></video>
 
 ### Gazebo Mimicking MoveIt Motion
 
-<video src="../media/screencast/gazebo.mp4" controls width="800"></video>
+<video src="../media/screencast/gazebo.gif" controls width="800"></video>
 
 ---
 
