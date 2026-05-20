@@ -1,1 +1,0 @@
-[dof,ArmInfo]= importrobot('Assem2.slx')
